@@ -1,3 +1,6 @@
+![GitHub License](https://img.shields.io/github/license/camilajodai/protectpetz)
+
+
 # Proteja Petz
 Este repositório hospeda o projeto do site Proteja Petz
 ## Autor
