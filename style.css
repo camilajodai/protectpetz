@@ -1,45 +1,106 @@
  /** folha de estilo do site proteja petz
  @author Camila Yukari Jodai
  */
- 
- /* CSS RESET */
- * {
-    margin: 0;
-    padding: 0;
-    border: 0;
- }
 
+ /* CSS RESET */
  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
+ :root {
+   --lightpink: #EDD1E0;
+   --pretolayout: #000000;
+ }
 
-body {
-    font-family: "Nunito", sans-serif;
-    font-size: 1em;
-}
+ * {
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
 
+
+ /* layout */
+ html {
+   scroll-behavior: smooth;
+ }
+
+ body {
+   font-family: "Nunito", sans-serif;
+   font-size: 1em;
+ }
+
+ .Container {
+   margin: 0 auto;
+   padding: 20px 15px 20px 15px;
+ }
+
+ .Flex {
+   display: flex;
+   flex-direction: column;
+ }
+
+ #logo img {
+   width: 220px;
+   height: 80px;
+ }
 
  /* smartphone portrait */
+ /* footer */
+ footer {
+   background-color: var(--lightpink);
+   color: var(--pretolayout);
+   text-align: center;
+ }
 
+ #social {
+   margin-bottom: 25px;
+ }
+
+ 
  /* smartphone landscape */
-@media (min-width:576px) {
-   
-}
+ @media (min-width:576px) {
+   .Container {
+     max-width: 540px;
+   }
+   .Flex {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #social {
+    margin: 0px;
+  }
+ }
+
  /* tablet portrait */
  @media (min-width:768px) {
-    
-}
+   .Container {
+     max-width: 720px;
+
+   }
+ }
+
  /* tablet landscape */
  @media (min-width:992px) {
-   
-}
- /* PCs ou notebooks ruim */
+   .Container {
+     max-width: 960px;
+
+   }
+ }
+
+ /* PCs ou notebooks pessimo */
  @media (min-width: 1200px) {
-    
-}
-  /* PCs ou notebooks full hd + */
-  @media (min-width: 1400px) {
-    
-}
+   .Container {
+     max-width: 1140px;
+   }
+
+
+
+   #copyright {}
+ }
+
+ /* PCs ou notebooks full hd + */
+ @media (min-width: 1400px) {
+   .Container {
+     max-width: 1360px;
+
+   }
+ }
