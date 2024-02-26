@@ -8,6 +8,9 @@
  :root {
    --lightpink: #EDD1E0;
    --pretolayout: #000000;
+   --backgroundcard: #f8f8f8;
+   --border: #a1a1a1;
+   --cinzatexto: #434343;
  }
 
  * {
@@ -33,21 +36,69 @@
  }
 
  .Flex {
-   display: flex;
    flex-direction: column;
  }
 
- #logo img {
-   width: 220px;
-   height: 80px;
- }
+ .Flex, .FlexMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card {
+  margin-top: 50px;
+  width: 338px;
+  height: 520px;
+  background-color: var(--backgroundcard);
+  border: 1px solid var(--border);
+  border-radius: 25px;
+  text-align: center;
+}
+
+.Card img {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.Card h3{
+  margin: 15px 30px 0px 30px;
+  color: var(--pretolayout);
+  font-size: 1.3em;
+}
+
+.Card p{
+  padding: 10px 15px 30px 15px;
+  text-align: justify;
+  color: var(--cinzatexto);
+  font-size: 1.1em;
+}
+
+.Button {
+  text-decoration: none;
+  background-color: var(--lightpink);
+  color: var(--pretolayout);
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
 
  /* smartphone portrait */
  /* footer */
+ header {
+  height:85px;
+ }
+
+ #logo img {
+   width: 200px;
+   height: 70px;
+   margin-top: 10px;
+   margin-left: 5px;
+ }
+
  footer {
    background-color: var(--lightpink);
    color: var(--pretolayout);
    text-align: center;
+   font-size: medium;
  }
 
  #social {
@@ -57,14 +108,17 @@
  
  /* smartphone landscape */
  @media (min-width:576px) {
+ 
+  
    .Container {
      max-width: 540px;
    }
-   .Flex {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-  }
+ /* cabeçalho */
+   header {
+    max-width: 576px;
+    margin: 0 auto;
+   }
+  
   #social {
     margin: 0px;
   }
@@ -76,14 +130,38 @@
      max-width: 720px;
 
    }
+     /* cabeçalho */
+  header {
+    max-width: 720px;
+    margin: 0 auto;
+    height: 120px;
+   
+   }
+
+   #logo img {
+    width: 280px;
+    height: 105px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
  }
+
+
 
  /* tablet landscape */
  @media (min-width:992px) {
    .Container {
      max-width: 960px;
-
    }
+   header {
+    max-width: 992px;
+    margin: 0 auto;
+    height: 120px;
+   
+   }
+
+   
  }
 
  /* PCs ou notebooks pessimo */
@@ -91,10 +169,21 @@
    .Container {
      max-width: 1140px;
    }
+   header {
+    max-width: 1140px;
+    margin: 0 auto;
+   }
+   .Flex {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo img {
+    margin-top: 20px;
+    margin-left: 5px;
+  }
 
-
-
-   #copyright {}
+  
  }
 
  /* PCs ou notebooks full hd + */
@@ -102,5 +191,9 @@
    .Container {
      max-width: 1360px;
 
+   }
+   header {
+    max-width: 1360px;
+    margin: 0 auto;
    }
  }
