@@ -45,7 +45,7 @@
 }
 
 .Card {
-  margin-top: 50px;
+  margin-top: 10px;
   width: 338px;
   height: 520px;
   background-color: var(--backgroundcard);
