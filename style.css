@@ -41,7 +41,7 @@
 
  .Flex, .FlexMenu {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
 .Card {
@@ -77,6 +77,16 @@
   color: var(--pretolayout);
   padding: 10px 40px 10px 40px;
   border-radius: 20px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.Button2 {
+  text-decoration: none;
+  background-color: var(--lightpink);
+  color: var(--backgroundcard);
+  padding: 10px 40px 10px 40px;
+  border-radius: 80px;
   font-size: 1.2em;
   font-weight: 700;
 }
@@ -138,6 +148,32 @@
   text-decoration: none;
   font-size: 1.3em;
  }
+
+ /*banner*/
+main {
+  background: url(img/banner.png);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+main h1,h2 {
+  color: var(--backgroundcard);
+}
+
+
+main h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+
+main h2 {
+  display: none;
+}
+
  /* footer */
  footer {
    background-color: var(--lightpink);
@@ -164,6 +200,14 @@
     margin: 0 auto;
    }
   
+    /*banner*/
+main {
+  height: 70vh;
+}
+
+main h1 {
+  font-size: 1.7em;
+}
   #social {
     margin: 0px;
   }
@@ -175,6 +219,21 @@
      max-width: 720px;
 
    }
+   main {
+    height: 50vh;
+  }
+  
+  main h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  main h2 {
+    display: block;
+    font-size: 1.7em;
+    margin-bottom: 250px;
+  }
      /* cabeçalho */
   header {
     max-width: 720px;
@@ -237,6 +296,7 @@
    .Container {
      max-width: 1140px;
    }
+  
    header {
     max-width: 1140px;
     margin: 0 auto;
@@ -276,6 +336,17 @@
     #logo img {
       margin-top: 20px;
       margin-left: 5px;
+    }
+
+    main h1 {
+      font-size: 2.5em;
+      text-shadow: #2e2e2e 0.1em 0.1em 0.1em;
+    }
+
+    main h2 {
+      text-align: right;
+      font-size: 2em; 
+      text-shadow: #2e2e2e 0.1em 0.1em 0.1em;
     }
  }
 
