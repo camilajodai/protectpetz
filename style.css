@@ -45,6 +45,17 @@
   justify-content:space-between;
 }
 
+.FlexCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.FlexIntro{
+  display: flex;
+  align-items: center;
+}
+
 .Card {
   margin-top: 10px;
   width: 338px;
@@ -159,38 +170,52 @@ main {
   text-align: center;
 }
 
-main h1,h2 {
-  color: var(--backgroundcard);
-  text-shadow: #2e2e2e 0.1em 0.1em 0.1em;
-}
-
-
 main h1 {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   margin-bottom: 80px;
+  color: var(--backgroundcard);
+  text-shadow: #2e2e2e 0.1em 0.1em 0.1em;
 }
-
 
 main h2 {
   display: none;
+  background-color: var(--pretolayout);
 }
+
+
 
 /* Destaque */
-#destaque {
-  position: relative;
-  height: 60vh;
+#intro {
+  background:url(img/f.jpg);
+  background-size: cover;
+  background-position: center;
+  
 }
 
-#destaque video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.Banner {
+#destaqueIntro {
   display: none;
+
 }
+
+
+#textoIntro {
+  color: var(--pretolayout);
+}
+
+.topicosIntro {
+  margin-top: 10px;
+}
+
+.topicosIntro img{
+  margin-right: 20px;
+}
+
+#textoIntro h1 {
+  margin-bottom: 10px;
+}
+
+
 
 /* Introdução */
 #intro {
