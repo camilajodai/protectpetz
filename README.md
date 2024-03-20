@@ -7,6 +7,9 @@
 
 # Proteja Petz
 Este repositório hospeda o projeto do site Proteja Petz
+## Acesse o site
+![QrCode](https://github.com/camilajodai/protectpetz/assets/129982590/4627b769-48ce-49b4-9e75-62262c7a2222)
+
 ## Autor
 Camila Yukari Jodai
 ## Links utilizados
