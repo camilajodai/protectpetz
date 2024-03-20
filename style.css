@@ -12,6 +12,7 @@
    --backgroundcard: #f8f8f8;
    --border: #a1a1a1;
    --cinzatexto: #434343;
+   --pink: #F15CA9;
  }
 
  * {
@@ -268,6 +269,38 @@ main h2 {
 #projetos {
   text-shadow: #cfcfcf 0.1em 0.1em 0.1em;
 }
+
+/* Customizando Página Sobre */
+
+/* Imagem Sobre */
+#imgsobre img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-bottom: 20px;
+}
+
+#imgsobre {
+  text-align: center;
+}
+
+/* Texto Sobre */
+
+#petztxt {
+  color: var(--pink);
+}
+
+#txtsobre h2 {
+  font-size: 1.9em;
+  margin-bottom: 20px;
+}
+
+
+#txtsobre p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
  /* smartphone landscape */
  @media (min-width:576px) {
  
