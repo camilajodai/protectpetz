@@ -108,11 +108,11 @@
 .Button2 {
   text-decoration: none;
   background-color: var(--lightpink);
-  color: var(--backgroundcard);
-  padding: 10px 40px 10px 40px;
+  color: var(--pretolayout);
+  padding: 10px 30px 10px 30px;
   border-radius: 80px;
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 
@@ -340,6 +340,26 @@ main h2 {
   font-size: 1.5em;
 }
 
+/* ---------------------------------------- */
+#textoAdote {
+  color: var(--pretolayout);
+}
+
+.topicosAdote {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#textoAdote h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+#textoAdote p {
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
  /* smartphone landscape */
  @media (min-width:576px) {
  
