@@ -286,7 +286,17 @@ main h2 {
   margin-bottom: 10px;
 }
 
-#aqui {
+#aqui1 {
+  display: none;
+  margin-left: 30px;
+}
+
+#aqui2 {
+  display: none;
+  margin-left: 30px;
+}
+
+#aqui3 {
   display: none;
   margin-left: 30px;
 }
@@ -294,6 +304,18 @@ main h2 {
 #content h3 {
   display: block;
   margin-left: 30px;
+}
+
+#petztxt1 {
+  color: var(--pink);
+}
+
+#petztxt2 {
+  color: var(--pink);
+}
+
+#petztxt3 {
+  color: var(--pink);
 }
 
 /* Introdução */
