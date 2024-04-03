@@ -362,6 +362,44 @@
    color: var(--pink);
  }
 
+/* ---------------------------------------------------- */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* estilo pro input */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  /* compatibiliza o tamanho das caixas do box */
+  box-sizing: border-box; 
+  margin-bottom: 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: var(--lightpink);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
  /* Introdução */
  #intro {
    background-color: var(--pretolayout);
@@ -466,11 +504,11 @@
 
  #textoAdote h2 {
    margin-bottom: 10px;
-   font-size: 1.5em;
+   font-size: 1.7em;
  }
 
  #textoAdote p {
-   font-size: 1.7em;
+   font-size: 1.5em;
    font-weight: 600;
    margin-bottom: 30px;
  }
