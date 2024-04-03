@@ -363,6 +363,10 @@
  }
 
 /* ---------------------------------------------------- */
+#MapaPC {
+  display: none;
+}
+
 form {
   background-color: white;
   padding: 20px;
@@ -372,6 +376,7 @@ form {
 
 h2 {
   font-size: 2em;
+  margin-bottom: 10px;
 }
 
 p {
@@ -715,6 +720,14 @@ input[type="reset"] {
    #content h3 {
      display: none;
    }
+
+   #MapaPC {
+    display: block;
+  }
+
+  #MapaCelular {
+    display: none;
+  }
  }
 
  /* PCs ou notebooks full hd + */
@@ -750,4 +763,12 @@ input[type="reset"] {
    #content h3 {
      display: none;
    }
+
+   #MapaPC {
+    display: block;
+  }
+
+  #MapaCelular {
+    display: none;
+  }
  }
