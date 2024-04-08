@@ -204,6 +204,33 @@
  }
 
 
+/* ------------------------------------------------------------------------------------ */
+#imgComoAmar img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+#imgComoAmar {
+  text-align: center;
+}
+
+#textoComoAmar p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#textoComoAmar li {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#textoComoAmar h3 {
+  font-size: 1.4em;
+  margin-top: 10px;
+}
 
  /* Destaque */
  #intro {
