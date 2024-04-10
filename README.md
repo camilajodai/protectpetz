@@ -1,7 +1,7 @@
 ![GitHub License](https://img.shields.io/github/license/camilajodai/protectpetz)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcamilajodai.github.io%2Fprotectpetz%2F)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fcamilajodai.github.io%2Fprotectpetz%2F)
-
+![CSS Validation](http://jigsaw.w3.org/css-validator/check/referer)
 
 
 
