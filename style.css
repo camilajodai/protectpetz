@@ -234,19 +234,19 @@
 
  /* Destaque */
  #fundo {
-  background: url(img/fundo.png);
-  background-size: cover;
-  background-position: center;
-  margin-top: 20px;
+   background: url(img/fundo.png);
+   background-size: cover;
+   background-position: center;
+   margin-top: 20px;
 
-}
+ }
 
-.fundo {
-  background: url(img/fundo.png);
-  background-size: cover;
-  background-position: center;
-  margin-top: 20px;
-}
+ .fundo {
+   background: url(img/fundo.png);
+   background-size: cover;
+   background-position: center;
+   margin-top: 20px;
+ }
 
  #intro {
    background: url(img/f.jpg);
