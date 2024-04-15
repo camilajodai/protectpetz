@@ -119,16 +119,12 @@
 
  .Button3 {
    text-decoration: none;
-   background-color: var(--lightpink);
-   color: var(--pretolayout);
-   padding: 10px 40px 10px 40px;
-   margin-left: 30px;
    border-radius: 20px;
    font-size: 1.2em;
    font-weight: 700;
+   margin-left: 30px;
+   margin-top: 50px;
  }
-
-
 
 
  /*topo*/
@@ -385,18 +381,6 @@
  #content3 h3 {
    display: block;
    margin-left: 30px;
- }
-
- #petztxt1 {
-   color: var(--pink);
- }
-
- #petztxt2 {
-   color: var(--pink);
- }
-
- #petztxt3 {
-   color: var(--pink);
  }
 
  /* ---------------------------------------------------- */
